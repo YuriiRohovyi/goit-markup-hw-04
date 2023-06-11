@@ -513,7 +513,7 @@ body {
   background-color: #31d0aa;
 }
 
-/* -----JS------*/
+/* -----modal window JS------*/
 .modal {
   position: fixed;
   top: 0;
@@ -529,6 +529,7 @@ body {
   visibility: hidden;
   pointer-events: none;
 }
+
 /* -------portfolio page-------- */
 
 .visually-hidden {
