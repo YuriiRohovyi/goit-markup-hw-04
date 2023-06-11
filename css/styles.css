@@ -211,6 +211,16 @@ body {
 }
 
 /* section 2 */
+
+.div-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
 .about-us-hidden {
   position: absolute;
   width: 1px;
