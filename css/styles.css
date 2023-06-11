@@ -601,7 +601,7 @@ body {
 .close-window:hover,
 .close-window:focus {
   background-color: #404bbf;
-  border: none;
+  border: 0;
   fill: #ffffff;
 }
 
