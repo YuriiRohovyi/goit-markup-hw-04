@@ -17,7 +17,7 @@ img {
   --accent-color: #4d5ae5;
   --accent-background-color: #f4f4fd;
   --active-accent-background-color: #404bbf;
-  --custumers-icons-color:  #8e8f99;
+  --custumers-icons-color: #8e8f99;
 }
 
 p,
@@ -413,30 +413,28 @@ body {
   display: flex;
   gap: 24px;
   list-style: none;
-
 }
 .custumers-list-icons {
   width: calc((100% - 120px) / 6);
   height: 88px;
 }
-.custumers-svg-icons {
-  width="100%";
-  height="100%";
+.custumers-div-icon {
+  width: "100%";
+  height: "100%";
   border: 1px solid #8e8f99;
   border-radius: 4px;
   display: flex;
-  align-items: center; 
+  align-items: center;
   justify-content: center;
   color: var(--custumers-icons-color);
-
-.custumers-svg-icons: is(:hover, :focus) {
-border-color: #404bbf;
 }
-.custumers-svg-icons{
+
+.custumers-svg-icons:is(:hover, :focus) {
+  border-color: #404bbf;
+}
+.custumers-svg-icons {
   fill: currentColor;
 }
-
-
 
 /* -----footer------*/
 .footer-web {
