@@ -94,7 +94,17 @@ body {
   gap: 40px;
   text-decoration: none;
 }
-
+.link-nav:after {
+  position: absolute;
+  content: "";
+  display: block;
+  height: 4px;
+  background-color: var(--active-accent-background-color);
+  width: 100%;
+  left: 0;
+  bottom: -1px;
+  border-radius: 2px;
+}
 .navigation-list .navigation-link.start::after {
   position: absolute;
   content: "";
