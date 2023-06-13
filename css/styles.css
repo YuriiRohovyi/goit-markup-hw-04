@@ -37,6 +37,7 @@ ol {
 }
 
 .container {
+  width: 100%;
   max-width: 1158px;
   padding: 0 15px;
   margin: auto;
@@ -221,16 +222,19 @@ body {
   color: var(--white-color);
   text-align: center;
   max-width: 496px;
-  display: flex;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 48px;
 }
 
 .section-os {
+  margin-left: auto;
+  margin-right: auto;
   max-width: 1440px;
   color: var(--secondary-color);
   background-color: var(--secondary-color);
   padding: 188px 0;
-  display: flex;
+
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -277,6 +281,18 @@ body {
   margin-bottom: 8px;
 }
 .about-us-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -421,8 +437,8 @@ body {
 .circle {
   width: 40px;
   height: 40px;
-  background-color: #404bbf;
   border-radius: 50%;
+  list-style: none;
 }
 
 .cosial-list {
@@ -550,6 +566,9 @@ body {
   color: #404bbf;
   border-color: #404bbf;
 }
+.footer-social-link {
+  list-style: none;
+}
 
 .footer-social-link {
   width: 100%;
@@ -621,6 +640,8 @@ body {
 
 .icon-close {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  align-items: center;
+  justify-content: center;
 }
 
 .icon-close:hover,
@@ -762,4 +783,7 @@ body {
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
+}
+.footer-social-icons {
+  list-style: none;
 }
