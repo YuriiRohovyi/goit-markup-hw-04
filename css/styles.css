@@ -466,6 +466,13 @@ body {
 .icon {
   fill: #f4f4fd;
 }
+.description-four {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 8px;
+}
 
 /* section 5 */
 .last-section-icons {
