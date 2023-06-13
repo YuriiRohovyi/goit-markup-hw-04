@@ -538,7 +538,7 @@ body {
 .footer-logo {
   color: var(--gray-background-color);
 }
-.general-div-footer {
+.div-footer {
   display: flex;
   align-items: baseline;
 }
